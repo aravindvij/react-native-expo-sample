@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    Array [
+      Object {
+        "backgroundColor": "white",
+        "display": "flex",
+        "flex": 1,
+      },
+      Object {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+        "marginTop": 70,
+      }
+    }
+  >
+    <RCTScrollView>
+      <View>
+        <Text
+          style={
+            Object {
+              "color": "black",
+              "fontSize": 28,
+              "fontWeight": "300",
+              "margin": 10,
+              "marginBottom": 40,
+            }
+          }
+        >
+          Login
+        </Text>
+        <View
+          style={
+            Array [
+              Object {
+                "marginBottom": 10,
+              },
+              Object {
+                "display": "flex",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "black",
+                  "fontSize": 16,
+                },
+                Object {
+                  "fontWeight": "500",
+                  "marginBottom": 10,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            E-mail
+          </Text>
+          <TextInput
+            allowFontScaling={true}
+            autoCorrect={false}
+            rejectResponderTermination={true}
+            secureTextEntry={false}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "transparent",
+                  "color": "black",
+                },
+                Object {
+                  "borderBottomColor": "black",
+                  "borderBottomWidth": 0.5,
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+        <View
+          style={
+            Array [
+              undefined,
+              Object {
+                "display": "flex",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "black",
+                  "fontSize": 16,
+                },
+                Object {
+                  "fontWeight": "500",
+                  "marginBottom": 10,
+                  "marginTop": 10,
+                },
+              ]
+            }
+          >
+            Password
+          </Text>
+          <View
+            accessible={true}
+            focusable={true}
+            isTVSelectable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+                "position": "absolute",
+                "right": 0,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "black",
+                  "fontWeight": "600",
+                }
+              }
+            >
+              Show
+            </Text>
+          </View>
+          <TextInput
+            allowFontScaling={true}
+            autoCorrect={false}
+            rejectResponderTermination={true}
+            secureTextEntry={true}
+            style={
+              Array [
+                Object {
+                  "borderBottomColor": "transparent",
+                  "color": "black",
+                },
+                Object {
+                  "borderBottomColor": "black",
+                  "borderBottomWidth": 0.5,
+                  "paddingBottom": 5,
+                  "paddingTop": 5,
+                },
+              ]
+            }
+            underlineColorAndroid="transparent"
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "bottom": 20,
+        "paddingTop": 0,
+        "right": 20,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={false}
+      isTVSelectable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "lightgray",
+            "borderRadius": 50,
+            "height": 60,
+            "justifyContent": "center",
+            "width": 60,
+          },
+        ]
+      }
+    >
+      <View
+        accessibilityRole="button"
+        accessibilityStates={Array []}
+        accessible={true}
+        focusable={true}
+        isTVSelectable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Array [
+              Object {},
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#007AFF",
+                  "fontSize": 18,
+                  "padding": 8,
+                  "textAlign": "center",
+                },
+                Object {
+                  "color": "gray",
+                },
+              ]
+            }
+          >
+            &gt;
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
